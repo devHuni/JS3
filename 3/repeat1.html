@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>conditional sentence</title>
+    </head>
+    <body>
+        <script>
+            let prices = [ 5100, 3200, 300, 10000, 3200, -80000, 500 ];
+            let total_price = 0;
+
+            for(let i=0 ; i<prices.length ; i++){
+                if(prices[i] > 0) {
+                    total_price += prices[i]
+                } 
+            }
+
+            document.write(total_price);
+        </script>
+    </body>
+</html>
